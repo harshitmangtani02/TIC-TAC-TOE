@@ -4,7 +4,7 @@
     margin: 0;
     user-select: none;
     touch-action: none;
-    color: rgba(255, 255, 255, 0.809);
+    color: black;
 }
 #main{
     padding: 5px;
@@ -15,13 +15,11 @@
     margin-bottom: 3vh;
 }
 .gg{
-    border-radius: 5px;
     height: 80px;
     width: 80px;
     background-position: center;
-    background-color: rgba(70, 66, 66, 0.857);
+    background-color: grey;
     background-repeat: no-repeat;
-    background-size: 64px 64px;
 }
 .gg:hover{
     cursor: pointer;
@@ -30,16 +28,16 @@
     margin-top: 2vh;
     width: 260px;
     height: 260px;
+    background-color: black;
 }
 #submit{
     margin-top: 9vh;
-    background-color: rgba(70, 66, 66, 0.857);
+    background-color: grey;
     font-weight: bolder;
     font-size: larger;
     padding: 10px;
-    border: none;
-    border-radius: 5px;
-    
+    border: solid;
+    border-width: 4px;
 }
 #submit:hover{
     cursor: pointer;
@@ -52,7 +50,7 @@ h1{
     position: absolute;
     height: 100vh;
     width: 100vw;
-    background: rgb(0,0,0);
+    background: rgba(138, 138, 138, 0.306);
 }
 #info{
     display: flex;
