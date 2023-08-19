@@ -4,6 +4,7 @@
     margin: 0;
     user-select: none;
     touch-action: none;
+    color: black;
 }
 #main{
     padding: 5px;
@@ -14,11 +15,13 @@
     margin-bottom: 3vh;
 }
 .gg{
+    border-radius: 5px;
     height: 80px;
     width: 80px;
     background-position: center;
-    background-color: gray;
+    background-color: grey;
     background-repeat: no-repeat;
+    background-size: 64px 64px;
 }
 .gg:hover{
     cursor: pointer;
@@ -27,7 +30,6 @@
     margin-top: 2vh;
     width: 260px;
     height: 260px;
-    background-color: black;
 }
 #submit{
     margin-top: 9vh;
@@ -51,4 +53,18 @@ h1{
     height: 100vh;
     width: 100vw;
     background-color: rgba(138, 138, 138, 0.306);
+}
+#info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 80vw;
+}
+#xsc{
+    margin-top: 11vh;
+    margin-right: 9vw;
+}
+#osc{
+    margin-top: 11vh;
+    margin-left: 9vw;
 }
