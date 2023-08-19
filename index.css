@@ -15,7 +15,6 @@
     margin-bottom: 3vh;
 }
 .gg{
-    border-radius: 5px;
     height: 80px;
     width: 80px;
     background-position: center;
@@ -30,6 +29,7 @@
     margin-top: 2vh;
     width: 260px;
     height: 260px;
+    background-color: black;
 }
 #submit{
     margin-top: 9vh;
