@@ -1,4 +1,4 @@
-let f=1,cnt=0,a=0;
+let f=1,cnt=0,a=0,xx=0,oo=0;
 
 for(let i=1;i<=9;i++){
     let btn=document.getElementById(i);
@@ -24,80 +24,112 @@ for(let i=1;i<=9;i++){
             if(document.getElementById('1').style.backgroundImage==document.getElementById('2').style.backgroundImage && document.getElementById('2').style.backgroundImage==document.getElementById('3').style.backgroundImage){
                 if(document.getElementById('1').style.backgroundImage=='url("cross.png")'){
                     document.getElementById("ans").innerHTML="<h2>X Wins</h2>"
+                    xx+=1
+                    document.getElementById("xsc").innerText=`X: ${xx}`
                     a=1;
                 }
                 else if(document.getElementById('1').style.backgroundImage=='url("circle.png")'){
                     document.getElementById("ans").innerHTML="<h2>O Wins</h2>"
+                    oo+=1
+                    document.getElementById("osc").innerText=`O: ${oo}`
                     a=1;
                 }
             }
             if(document.getElementById('4').style.backgroundImage==document.getElementById('5').style.backgroundImage && document.getElementById('5').style.backgroundImage==document.getElementById('6').style.backgroundImage){
                 if(document.getElementById('4').style.backgroundImage=='url("cross.png")'){
                     document.getElementById("ans").innerHTML="<h2>X Wins</h2>"
+                    xx+=1
+                    document.getElementById("xsc").innerText=`X: ${xx}`
                     a=1;
                 }
                 else if(document.getElementById('4').style.backgroundImage=='url("circle.png")'){
                     document.getElementById("ans").innerHTML="<h2>O Wins</h2>"
+                    oo+=1
+                    document.getElementById("osc").innerText=`O: ${oo}`
                     a=1;
                 }
             }
             if(document.getElementById('7').style.backgroundImage==document.getElementById('8').style.backgroundImage && document.getElementById('8').style.backgroundImage==document.getElementById('9').style.backgroundImage){
                 if(document.getElementById('7').style.backgroundImage=='url("cross.png")'){
                     document.getElementById("ans").innerHTML="<h2>X Wins</h2>"
+                    xx+=1
+                    document.getElementById("xsc").innerText=`X: ${xx}`
                     a=1;
                 }
                 else if(document.getElementById('7').style.backgroundImage=='url("circle.png")'){
                     document.getElementById("ans").innerHTML="<h2>O Wins</h2>"
+                    oo+=1
+                    document.getElementById("osc").innerText=`O: ${oo}`
                     a=1;
                 }
             }
             if(document.getElementById('1').style.backgroundImage==document.getElementById('4').style.backgroundImage && document.getElementById('4').style.backgroundImage==document.getElementById('7').style.backgroundImage){
                 if(document.getElementById('1').style.backgroundImage=='url("cross.png")'){
                     document.getElementById("ans").innerHTML="<h2>X Wins</h2>"
+                    xx+=1
+                    document.getElementById("xsc").innerText=`X: ${xx}`
                     a=1;
                 }
                 else if(document.getElementById('1').style.backgroundImage=='url("circle.png")'){
                     document.getElementById("ans").innerHTML="<h2>O Wins</h2>"
+                    oo+=1
+                    document.getElementById("osc").innerText=`O: ${oo}`
                     a=1;
                 }
             }
             if(document.getElementById('2').style.backgroundImage==document.getElementById('5').style.backgroundImage && document.getElementById('5').style.backgroundImage==document.getElementById('8').style.backgroundImage){
                 if(document.getElementById('2').style.backgroundImage=='url("cross.png")'){
                     document.getElementById("ans").innerHTML="<h2>X Wins</h2>"
+                    xx+=1
+                    document.getElementById("xsc").innerText=`X: ${xx}`
                     a=1;
                 }
                 else if(document.getElementById('2').style.backgroundImage=='url("circle.png")'){
                     document.getElementById("ans").innerHTML="<h2>O Wins</h2>"
+                    oo+=1
+                    document.getElementById("osc").innerText=`O: ${oo}`
                     a=1;
                 }
             }
             if(document.getElementById('3').style.backgroundImage==document.getElementById('6').style.backgroundImage && document.getElementById('6').style.backgroundImage==document.getElementById('9').style.backgroundImage){
                 if(document.getElementById('3').style.backgroundImage=='url("cross.png")'){
                     document.getElementById("ans").innerHTML="<h2>X Wins</h2>"
+                    xx+=1
+                    document.getElementById("xsc").innerText=`X: ${xx}`
                     a=1;
                 }
                 else if(document.getElementById('3').style.backgroundImage=='url("circle.png")'){
                     document.getElementById("ans").innerHTML="<h2>O Wins</h2>"
+                    oo+=1
+                    document.getElementById("osc").innerText=`O: ${oo}`
                     a=1;
                 }
             }
             if(document.getElementById('1').style.backgroundImage==document.getElementById('5').style.backgroundImage && document.getElementById('5').style.backgroundImage==document.getElementById('9').style.backgroundImage){
                 if(document.getElementById('1').style.backgroundImage=='url("cross.png")'){
                     document.getElementById("ans").innerHTML="<h2>X Wins</h2>"
+                    xx+=1
+                    document.getElementById("xsc").innerText=`X: ${xx}`
                     a=1;
                 }
                 else if(document.getElementById('1').style.backgroundImage=='url("circle.png")'){
                     document.getElementById("ans").innerHTML="<h2>O Wins</h2>"
+                    oo+=1
+                    document.getElementById("osc").innerText=`O: ${oo}`
                     a=1;
                 }
             }
             if(document.getElementById('3').style.backgroundImage==document.getElementById('5').style.backgroundImage && document.getElementById('5').style.backgroundImage==document.getElementById('7').style.backgroundImage){
                 if(document.getElementById('3').style.backgroundImage=='url("cross.png")'){
                     document.getElementById("ans").innerHTML="<h2>X Wins</h2>"
+                    xx+=1
+                    document.getElementById("xsc").innerText=`X: ${xx}`
                     a=1;
                 }
                 else if(document.getElementById('3').style.backgroundImage=='url("circle.png")'){
                     document.getElementById("ans").innerHTML="<h2>O Wins</h2>"
+                    oo+=1
+                    document.getElementById("osc").innerText=`O: ${oo}`
                     a=1;
                 }
             }
