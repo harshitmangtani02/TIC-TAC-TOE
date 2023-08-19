@@ -50,7 +50,7 @@ h1{
     position: absolute;
     height: 100vh;
     width: 100vw;
-    background-color: rgba(138, 138, 138, 0.467);
+    background-color: rgba(138, 138, 138, 0.667);
 }
 #info{
     display: flex;
